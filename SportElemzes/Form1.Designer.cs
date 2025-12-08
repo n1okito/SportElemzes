@@ -149,13 +149,13 @@
             this.btnMegse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
-            this.btnMegse.Location = new System.Drawing.Point(682, 156);
+            this.btnMegse.Location = new System.Drawing.Point(764, 156);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(106, 30);
+            this.btnMegse.Size = new System.Drawing.Size(24, 30);
             this.btnMegse.TabIndex = 11;
-            this.btnMegse.Text = "Kilépés";
+            this.btnMegse.Text = "X";
             this.btnMegse.UseVisualStyleBackColor = false;
             this.btnMegse.Click += new System.EventHandler(this.btnMegse_Click);
             // 

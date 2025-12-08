@@ -200,6 +200,11 @@
     <Content Include="képek,ikonok\mobile_677411-3439.png" />
     <Content Include="képek,ikonok\pngimg.com - football_PNG52775.png" />
     <Content Include="képek,ikonok\wp12786474.jpg" />
+    <None Include="Resources\STER Sportteljesítmény Elemező REdndszer %283%29.gif" />
+    <None Include="Resources\STER Sportteljesítmény Elemező REdndszer %282%29.gif" />
+    <None Include="Resources\STER Sportteljesítmény Elemező REdndszer %281%29.gif" />
+    <None Include="Resources\STER Sportteljesítmény Elemező REdndszer.gif" />
+    <None Include="Resources\UPuNC9.gif" />
     <None Include="Resources\wp12786474.jpg" />
     <None Include="Resources\12461713-light-color-background-wallpaper.jpg" />
     <None Include="Resources\34378069_v904-nunny-010-f.jpg" />

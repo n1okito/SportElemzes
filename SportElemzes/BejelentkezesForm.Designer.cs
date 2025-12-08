@@ -29,8 +29,8 @@
             this.txtFelhasznalonev = new System.Windows.Forms.TextBox();
             this.txtJelszo = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblFelhasznalonev
@@ -40,6 +40,7 @@
             this.lblFelhasznalonev.BackColor = System.Drawing.Color.Transparent;
             this.lblFelhasznalonev.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblFelhasznalonev.ForeColor = System.Drawing.Color.White;
+            this.lblFelhasznalonev.Image = ((System.Drawing.Image)(resources.GetObject("lblFelhasznalonev.Image")));
             this.lblFelhasznalonev.Location = new System.Drawing.Point(342, 140);
             this.lblFelhasznalonev.Name = "lblFelhasznalonev";
             this.lblFelhasznalonev.Size = new System.Drawing.Size(116, 21);
@@ -53,6 +54,7 @@
             this.lblJelszo.BackColor = System.Drawing.Color.Transparent;
             this.lblJelszo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblJelszo.ForeColor = System.Drawing.Color.White;
+            this.lblJelszo.Image = ((System.Drawing.Image)(resources.GetObject("lblJelszo.Image")));
             this.lblJelszo.Location = new System.Drawing.Point(375, 189);
             this.lblJelszo.Name = "lblJelszo";
             this.lblJelszo.Size = new System.Drawing.Size(51, 21);
@@ -143,33 +145,18 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.btnBezar_Click);
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("IQOS", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(249, -16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 147);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "STER";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(273, 93);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(255, 21);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "SportTeljesítmény Elemző Rendszer";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::SportElemzes.Properties.Resources.STER_Sportteljesítmény_Elemező_REdndszer__3_;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // BejelentkezesForm
             // 
@@ -177,13 +164,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.BackgroundImage = global::SportElemzes.Properties.Resources.mobile_677411_3439;
+            this.BackgroundImage = global::SportElemzes.Properties.Resources.UPuNC9;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnMegse;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtJelszo);
             this.Controls.Add(this.txtFelhasznalonev);
             this.Controls.Add(this.btnMegse);
@@ -191,11 +175,15 @@
             this.Controls.Add(this.btnBejelentkezes);
             this.Controls.Add(this.lblJelszo);
             this.Controls.Add(this.lblFelhasznalonev);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "BejelentkezesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Bejelentkezés";
+            this.Load += new System.EventHandler(this.BejelentkezesForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -211,7 +199,6 @@
         private System.Windows.Forms.TextBox txtFelhasznalonev;
         private System.Windows.Forms.TextBox txtJelszo;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
