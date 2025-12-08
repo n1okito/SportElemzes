@@ -160,7 +160,19 @@ namespace SportElemzes
         {
 
         }
+
+        private void btnWellness_Click(object sender, EventArgs e)
+        {
+            using (var form = new WellnessForm())
+            {
+                if (form.ShowDialog() == DialogResult.OK)
+                {
+                    
+                }
+            }
+        }
     }
+    
 }
 
     

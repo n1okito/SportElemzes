@@ -112,6 +112,18 @@
     <Compile Include="SportoloFelvitelForm.Designer.cs">
       <DependentUpon>SportoloFelvitelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="WellnessFelvitelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WellnessFelvitelForm.Designer.cs">
+      <DependentUpon>WellnessFelvitelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WellnessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WellnessForm.Designer.cs">
+      <DependentUpon>WellnessForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BejelentkezesForm.resx">
       <DependentUpon>BejelentkezesForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -142,6 +154,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SportoloFelvitelForm.resx">
       <DependentUpon>SportoloFelvitelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WellnessFelvitelForm.resx">
+      <DependentUpon>WellnessFelvitelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WellnessForm.resx">
+      <DependentUpon>WellnessForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="képek,ikonok\mobile_677411-3439.avif" />
     <None Include="packages.config" />

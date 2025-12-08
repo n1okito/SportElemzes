@@ -34,6 +34,7 @@
             this.btnMegse = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnWellness = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSportolok)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             this.btnUjSportolo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUjSportolo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnUjSportolo.ForeColor = System.Drawing.Color.White;
-            this.btnUjSportolo.Location = new System.Drawing.Point(167, 275);
+            this.btnUjSportolo.Location = new System.Drawing.Point(167, 268);
             this.btnUjSportolo.Name = "btnUjSportolo";
             this.btnUjSportolo.Size = new System.Drawing.Size(221, 30);
             this.btnUjSportolo.TabIndex = 1;
@@ -72,7 +73,7 @@
             this.btnModositas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnModositas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnModositas.ForeColor = System.Drawing.Color.White;
-            this.btnModositas.Location = new System.Drawing.Point(167, 315);
+            this.btnModositas.Location = new System.Drawing.Point(167, 308);
             this.btnModositas.Name = "btnModositas";
             this.btnModositas.Size = new System.Drawing.Size(221, 30);
             this.btnModositas.TabIndex = 2;
@@ -87,7 +88,7 @@
             this.btnTorles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTorles.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnTorles.ForeColor = System.Drawing.Color.White;
-            this.btnTorles.Location = new System.Drawing.Point(167, 355);
+            this.btnTorles.Location = new System.Drawing.Point(167, 348);
             this.btnTorles.Name = "btnTorles";
             this.btnTorles.Size = new System.Drawing.Size(221, 30);
             this.btnTorles.TabIndex = 3;
@@ -102,7 +103,7 @@
             this.btnEdzesek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEdzesek.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnEdzesek.ForeColor = System.Drawing.Color.White;
-            this.btnEdzesek.Location = new System.Drawing.Point(410, 275);
+            this.btnEdzesek.Location = new System.Drawing.Point(410, 268);
             this.btnEdzesek.Name = "btnEdzesek";
             this.btnEdzesek.Size = new System.Drawing.Size(221, 30);
             this.btnEdzesek.TabIndex = 4;
@@ -117,7 +118,7 @@
             this.btnElemzes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnElemzes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnElemzes.ForeColor = System.Drawing.Color.White;
-            this.btnElemzes.Location = new System.Drawing.Point(410, 315);
+            this.btnElemzes.Location = new System.Drawing.Point(410, 308);
             this.btnElemzes.Name = "btnElemzes";
             this.btnElemzes.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnElemzes.Size = new System.Drawing.Size(221, 30);
@@ -133,7 +134,7 @@
             this.btnGrafikon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrafikon.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnGrafikon.ForeColor = System.Drawing.Color.White;
-            this.btnGrafikon.Location = new System.Drawing.Point(410, 355);
+            this.btnGrafikon.Location = new System.Drawing.Point(410, 348);
             this.btnGrafikon.Name = "btnGrafikon";
             this.btnGrafikon.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnGrafikon.Size = new System.Drawing.Size(221, 30);
@@ -150,11 +151,11 @@
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
-            this.btnMegse.Location = new System.Drawing.Point(347, 403);
+            this.btnMegse.Location = new System.Drawing.Point(682, 156);
             this.btnMegse.Name = "btnMegse";
             this.btnMegse.Size = new System.Drawing.Size(106, 30);
             this.btnMegse.TabIndex = 11;
-            this.btnMegse.Text = "Mégse";
+            this.btnMegse.Text = "Kilépés";
             this.btnMegse.UseVisualStyleBackColor = false;
             this.btnMegse.Click += new System.EventHandler(this.btnMegse_Click);
             // 
@@ -185,6 +186,21 @@
             this.label1.TabIndex = 19;
             this.label1.Text = "STER";
             // 
+            // btnWellness
+            // 
+            this.btnWellness.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnWellness.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.btnWellness.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnWellness.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellness.ForeColor = System.Drawing.Color.White;
+            this.btnWellness.Location = new System.Drawing.Point(167, 391);
+            this.btnWellness.Name = "btnWellness";
+            this.btnWellness.Size = new System.Drawing.Size(221, 30);
+            this.btnWellness.TabIndex = 21;
+            this.btnWellness.Text = "Wellness";
+            this.btnWellness.UseVisualStyleBackColor = false;
+            this.btnWellness.Click += new System.EventHandler(this.btnWellness_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,6 +209,7 @@
             this.BackgroundImage = global::SportElemzes.Properties.Resources.mobile_677411_3439;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnWellness);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMegse);
@@ -227,6 +244,7 @@
         private System.Windows.Forms.Button btnMegse;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnWellness;
     }
 }
 
