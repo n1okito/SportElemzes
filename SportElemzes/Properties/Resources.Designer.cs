@@ -133,6 +133,36 @@ namespace SportElemzes.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap STER_Sportteljesítmény_Elemező_REdndszer__3_1 {
+            get {
+                object obj = ResourceManager.GetObject("STER Sportteljesítmény Elemező REdndszer (3)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap STER_Sportteljesítmény_Elemező_REdndszer__4_ {
+            get {
+                object obj = ResourceManager.GetObject("STER Sportteljesítmény Elemező REdndszer (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap STER_Sportteljesítmény_Elemező_REdndszer__5_ {
+            get {
+                object obj = ResourceManager.GetObject("STER Sportteljesítmény Elemező REdndszer (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap UPuNC9 {
             get {
                 object obj = ResourceManager.GetObject("UPuNC9", resourceCulture);

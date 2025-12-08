@@ -149,7 +149,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::SportElemzes.Properties.Resources.STER_Sportteljesítmény_Elemező_REdndszer__3_;
+            this.pictureBox1.Image = global::SportElemzes.Properties.Resources.STER_Sportteljesítmény_Elemező_REdndszer__5_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(800, 450);
