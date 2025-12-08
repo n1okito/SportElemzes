@@ -38,5 +38,23 @@ namespace SportElemzes
         {
             this.Close();
         }
+
+        private void btnWellness_Click(object sender, EventArgs e)
+        {
+            using (var form = new WellnessListaForm())
+            {
+                form.ShowDialog(this);
+            }
+        }
+
+        private void btnWellnessLista_Click(object sender, EventArgs e)
+        {
+            using (var form = new WellnessListaForm())
+            {
+                form.ShowDialog(this);
+            }
+        }
     }
 }
+
+    

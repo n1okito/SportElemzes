@@ -134,7 +134,6 @@
             this.lblHangulat.Size = new System.Drawing.Size(111, 21);
             this.lblHangulat.TabIndex = 6;
             this.lblHangulat.Text = "Hangulat (1-5)";
-            
             // 
             // cmbSportolo
             // 
@@ -155,7 +154,7 @@
             // 
             this.txtAlvas.Location = new System.Drawing.Point(391, 167);
             this.txtAlvas.Name = "txtAlvas";
-            this.txtAlvas.Size = new System.Drawing.Size(100, 20);
+            this.txtAlvas.Size = new System.Drawing.Size(120, 20);
             this.txtAlvas.TabIndex = 9;
             // 
             // numAlvasMinoseg
@@ -255,6 +254,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WellnessFelvitelForm";
             this.Text = "Wellness Bejegyzések";
+            this.Load += new System.EventHandler(this.WellnessFelvitelForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numAlvasMinoseg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numFaradtsag)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numIzomlaz)).EndInit();
