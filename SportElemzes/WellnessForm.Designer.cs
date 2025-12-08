@@ -39,11 +39,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(332, 25);
+            this.label1.Location = new System.Drawing.Point(250, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(137, 40);
+            this.label1.Size = new System.Drawing.Size(300, 86);
             this.label1.TabIndex = 0;
             this.label1.Text = "Wellness";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -53,11 +53,11 @@
             this.btnWellnessFelvitel.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessFelvitel.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessFelvitel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWellnessFelvitel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellnessFelvitel.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnWellnessFelvitel.ForeColor = System.Drawing.Color.White;
-            this.btnWellnessFelvitel.Location = new System.Drawing.Point(350, 118);
+            this.btnWellnessFelvitel.Location = new System.Drawing.Point(170, 177);
             this.btnWellnessFelvitel.Name = "btnWellnessFelvitel";
-            this.btnWellnessFelvitel.Size = new System.Drawing.Size(100, 30);
+            this.btnWellnessFelvitel.Size = new System.Drawing.Size(140, 40);
             this.btnWellnessFelvitel.TabIndex = 1;
             this.btnWellnessFelvitel.Text = "Felvitel";
             this.btnWellnessFelvitel.UseVisualStyleBackColor = false;
@@ -68,14 +68,15 @@
             this.btnWellnessElemzes.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessElemzes.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessElemzes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWellnessElemzes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellnessElemzes.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnWellnessElemzes.ForeColor = System.Drawing.Color.White;
-            this.btnWellnessElemzes.Location = new System.Drawing.Point(350, 236);
+            this.btnWellnessElemzes.Location = new System.Drawing.Point(490, 177);
             this.btnWellnessElemzes.Name = "btnWellnessElemzes";
-            this.btnWellnessElemzes.Size = new System.Drawing.Size(100, 30);
+            this.btnWellnessElemzes.Size = new System.Drawing.Size(140, 40);
             this.btnWellnessElemzes.TabIndex = 2;
             this.btnWellnessElemzes.Text = "Elemzés";
             this.btnWellnessElemzes.UseVisualStyleBackColor = false;
+            this.btnWellnessElemzes.Click += new System.EventHandler(this.btnWellnessElemzes_Click);
             // 
             // btnMegse
             // 
@@ -97,11 +98,11 @@
             this.btnWellnessLista.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessLista.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnWellnessLista.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWellnessLista.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellnessLista.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnWellnessLista.ForeColor = System.Drawing.Color.White;
-            this.btnWellnessLista.Location = new System.Drawing.Point(350, 177);
+            this.btnWellnessLista.Location = new System.Drawing.Point(328, 177);
             this.btnWellnessLista.Name = "btnWellnessLista";
-            this.btnWellnessLista.Size = new System.Drawing.Size(100, 30);
+            this.btnWellnessLista.Size = new System.Drawing.Size(140, 40);
             this.btnWellnessLista.TabIndex = 4;
             this.btnWellnessLista.Text = "Adatok";
             this.btnWellnessLista.UseVisualStyleBackColor = false;
@@ -121,6 +122,7 @@
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WellnessForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "WellnessForm";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -41,11 +41,11 @@
             this.btnFrissit.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFrissit.ForeColor = System.Drawing.Color.White;
-            this.btnFrissit.Location = new System.Drawing.Point(230, 113);
+            this.btnFrissit.Location = new System.Drawing.Point(215, 113);
             this.btnFrissit.Name = "btnFrissit";
-            this.btnFrissit.Size = new System.Drawing.Size(100, 30);
+            this.btnFrissit.Size = new System.Drawing.Size(130, 40);
             this.btnFrissit.TabIndex = 2;
             this.btnFrissit.Text = "Frissítés";
             this.btnFrissit.UseVisualStyleBackColor = false;
@@ -56,11 +56,11 @@
             this.btnMegse.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
-            this.btnMegse.Location = new System.Drawing.Point(470, 113);
+            this.btnMegse.Location = new System.Drawing.Point(455, 113);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(100, 30);
+            this.btnMegse.Size = new System.Drawing.Size(130, 40);
             this.btnMegse.TabIndex = 4;
             this.btnMegse.Text = "Mégse";
             this.btnMegse.UseVisualStyleBackColor = false;
@@ -69,9 +69,9 @@
             // cmbSportolo
             // 
             this.cmbSportolo.FormattingEnabled = true;
-            this.cmbSportolo.Location = new System.Drawing.Point(345, 197);
+            this.cmbSportolo.Location = new System.Drawing.Point(294, 197);
             this.cmbSportolo.Name = "cmbSportolo";
-            this.cmbSportolo.Size = new System.Drawing.Size(121, 21);
+            this.cmbSportolo.Size = new System.Drawing.Size(213, 21);
             this.cmbSportolo.TabIndex = 5;
             // 
             // dgvWellness
@@ -87,11 +87,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(280, 22);
+            this.label1.Location = new System.Drawing.Point(138, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 40);
+            this.label1.Size = new System.Drawing.Size(526, 86);
             this.label1.TabIndex = 7;
             this.label1.Text = "Wellness adatok";
             // 
@@ -109,6 +109,7 @@
             this.Controls.Add(this.btnFrissit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WellnessListaForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "WellnessListaForm";
             this.Load += new System.EventHandler(this.WellnessListaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvWellness)).EndInit();

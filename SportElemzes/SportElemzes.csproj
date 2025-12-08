@@ -112,6 +112,12 @@
     <Compile Include="SportoloFelvitelForm.Designer.cs">
       <DependentUpon>SportoloFelvitelForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="WellnessElemzesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WellnessElemzesForm.Designer.cs">
+      <DependentUpon>WellnessElemzesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WellnessFelvitelForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SportoloFelvitelForm.resx">
       <DependentUpon>SportoloFelvitelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WellnessElemzesForm.resx">
+      <DependentUpon>WellnessElemzesForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WellnessFelvitelForm.resx">
       <DependentUpon>WellnessFelvitelForm.cs</DependentUpon>

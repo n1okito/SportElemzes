@@ -54,6 +54,14 @@ namespace SportElemzes
                 form.ShowDialog(this);
             }
         }
+
+        private void btnWellnessElemzes_Click(object sender, EventArgs e)
+        {
+            using (var form = new WellnessElemzesForm())
+            {
+                form.ShowDialog(this);
+            }
+        }
     }
 }
 
