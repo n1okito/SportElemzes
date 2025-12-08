@@ -168,9 +168,9 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(273, 209);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(254, 21);
+            this.label2.Size = new System.Drawing.Size(255, 21);
             this.label2.TabIndex = 20;
-            this.label2.Text = "Sportteljesítmény Elemző Rendszer";
+            this.label2.Text = "SportTeljesítmény Elemző Rendszer";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1

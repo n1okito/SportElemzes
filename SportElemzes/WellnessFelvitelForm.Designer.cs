@@ -253,6 +253,7 @@
             this.Controls.Add(this.lvlSportolo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "WellnessFelvitelForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wellness Bejegyzések";
             this.Load += new System.EventHandler(this.WellnessFelvitelForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numAlvasMinoseg)).EndInit();
