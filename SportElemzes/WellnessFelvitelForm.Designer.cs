@@ -196,6 +196,7 @@
             this.label1.Size = new System.Drawing.Size(260, 40);
             this.label1.TabIndex = 14;
             this.label1.Text = "Wellness Bejegyzés";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnMentes
             // 

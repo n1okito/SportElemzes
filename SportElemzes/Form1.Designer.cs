@@ -48,8 +48,9 @@
             this.dgvSportolok.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dgvSportolok.Location = new System.Drawing.Point(0, 0);
             this.dgvSportolok.Name = "dgvSportolok";
-            this.dgvSportolok.Size = new System.Drawing.Size(800, 150);
+            this.dgvSportolok.Size = new System.Drawing.Size(800, 139);
             this.dgvSportolok.TabIndex = 0;
+            this.dgvSportolok.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSportolok_CellContentClick);
             // 
             // btnUjSportolo
             // 
@@ -149,13 +150,14 @@
             this.btnMegse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
-            this.btnMegse.Location = new System.Drawing.Point(776, 147);
+            this.btnMegse.Location = new System.Drawing.Point(776, 132);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(24, 30);
+            this.btnMegse.Size = new System.Drawing.Size(24, 33);
             this.btnMegse.TabIndex = 11;
             this.btnMegse.Text = "X";
+            this.btnMegse.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMegse.UseVisualStyleBackColor = false;
             this.btnMegse.Click += new System.EventHandler(this.btnMegse_Click);
             // 
@@ -165,7 +167,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(273, 209);
+            this.label2.Location = new System.Drawing.Point(279, 194);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(255, 21);
             this.label2.TabIndex = 20;
@@ -176,13 +178,14 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("IQOS", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(301, 132);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 98);
+            this.label1.Size = new System.Drawing.Size(207, 73);
             this.label1.TabIndex = 19;
             this.label1.Text = "STER";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnWellness
             // 

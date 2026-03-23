@@ -57,5 +57,10 @@ namespace SportElemzes
             _db.Dispose();
             base.OnFormClosed(e);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
