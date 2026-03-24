@@ -11,7 +11,9 @@ namespace SportElemzes.Modellek
         public DateTime Datum { get; set; }                  
         public string Edzestipus { get; set; } = "";
 
-       
+        /// <summary>
+        /// Terhelés 1-10
+        /// </summary>
         public int Rpe { get; set; }
 
         
