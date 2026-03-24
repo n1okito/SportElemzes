@@ -17,7 +17,9 @@ namespace SportElemzes.Modellek
         
         public int IdotartamPercben { get; set; }
 
-       
+        /// <summary>
+        /// összterhelés kiszámolása, MÉG NEM JÓ . MEG KELL CSINÁLNI!!!!!!!!!!!!!!
+        /// </summary>
         public int Terheles => Rpe * IdotartamPercben;
     }
 }

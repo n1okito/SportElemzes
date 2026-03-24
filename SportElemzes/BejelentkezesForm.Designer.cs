@@ -35,6 +35,7 @@
             // 
             // lblFelhasznalonev
             // 
+            this.lblFelhasznalonev.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblFelhasznalonev.AutoSize = true;
             this.lblFelhasznalonev.BackColor = System.Drawing.Color.Transparent;
             this.lblFelhasznalonev.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -48,6 +49,7 @@
             // 
             // lblJelszo
             // 
+            this.lblJelszo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblJelszo.AutoSize = true;
             this.lblJelszo.BackColor = System.Drawing.Color.Transparent;
             this.lblJelszo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -61,6 +63,7 @@
             // 
             // btnBejelentkezes
             // 
+            this.btnBejelentkezes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnBejelentkezes.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnBejelentkezes.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnBejelentkezes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -76,6 +79,7 @@
             // 
             // btnRegisztracio
             // 
+            this.btnRegisztracio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRegisztracio.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnRegisztracio.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnRegisztracio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -91,6 +95,7 @@
             // 
             // btnMegse
             // 
+            this.btnMegse.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnMegse.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
@@ -106,6 +111,7 @@
             // 
             // txtFelhasznalonev
             // 
+            this.txtFelhasznalonev.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtFelhasznalonev.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtFelhasznalonev.Location = new System.Drawing.Point(315, 164);
             this.txtFelhasznalonev.Name = "txtFelhasznalonev";
@@ -114,6 +120,7 @@
             // 
             // txtJelszo
             // 
+            this.txtJelszo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtJelszo.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.txtJelszo.Location = new System.Drawing.Point(315, 213);
             this.txtJelszo.Name = "txtJelszo";
@@ -124,6 +131,7 @@
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.Color.RoyalBlue;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -140,10 +148,11 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = global::SportElemzes.Properties.Resources.STER_Sportteljesítmény_Elemező_REdndszer__5_;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(864, 864);
+            this.pictureBox1.Size = new System.Drawing.Size(800, 450);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
