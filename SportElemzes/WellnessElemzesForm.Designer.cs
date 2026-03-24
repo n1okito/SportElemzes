@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.btnFrissit = new System.Windows.Forms.Button();
             this.btnMegse = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -46,11 +46,11 @@
             this.btnFrissit.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFrissit.ForeColor = System.Drawing.Color.White;
             this.btnFrissit.Location = new System.Drawing.Point(86, 302);
             this.btnFrissit.Name = "btnFrissit";
-            this.btnFrissit.Size = new System.Drawing.Size(100, 30);
+            this.btnFrissit.Size = new System.Drawing.Size(100, 35);
             this.btnFrissit.TabIndex = 3;
             this.btnFrissit.Text = "Frissítés";
             this.btnFrissit.UseVisualStyleBackColor = false;
@@ -61,11 +61,11 @@
             this.btnMegse.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
             this.btnMegse.Location = new System.Drawing.Point(207, 302);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(100, 30);
+            this.btnMegse.Size = new System.Drawing.Size(100, 35);
             this.btnMegse.TabIndex = 4;
             this.btnMegse.Text = "Mégse";
             this.btnMegse.UseVisualStyleBackColor = false;
@@ -100,18 +100,18 @@
             // chtWellness
             // 
             this.chtWellness.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            chartArea2.Name = "ChartArea1";
-            this.chtWellness.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chtWellness.ChartAreas.Add(chartArea1);
             this.chtWellness.Dock = System.Windows.Forms.DockStyle.Right;
-            legend2.Name = "Legend1";
-            this.chtWellness.Legends.Add(legend2);
+            legend1.Name = "Legend1";
+            this.chtWellness.Legends.Add(legend1);
             this.chtWellness.Location = new System.Drawing.Point(389, 0);
             this.chtWellness.Name = "chtWellness";
             this.chtWellness.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series2.ChartArea = "ChartArea1";
-            series2.Legend = "Legend1";
-            series2.Name = "Series1";
-            this.chtWellness.Series.Add(series2);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chtWellness.Series.Add(series1);
             this.chtWellness.Size = new System.Drawing.Size(411, 450);
             this.chtWellness.TabIndex = 11;
             // 

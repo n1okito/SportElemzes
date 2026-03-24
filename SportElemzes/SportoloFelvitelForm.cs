@@ -68,5 +68,10 @@ namespace SportElemzes
         {
             this.Close();
         }
+
+        private void chkAktiv_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

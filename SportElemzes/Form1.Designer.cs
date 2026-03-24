@@ -57,7 +57,7 @@
             this.btnUjSportolo.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnUjSportolo.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnUjSportolo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUjSportolo.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnUjSportolo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnUjSportolo.ForeColor = System.Drawing.Color.White;
             this.btnUjSportolo.Location = new System.Drawing.Point(168, 247);
             this.btnUjSportolo.Name = "btnUjSportolo";
@@ -72,7 +72,7 @@
             this.btnModositas.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnModositas.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnModositas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnModositas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnModositas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnModositas.ForeColor = System.Drawing.Color.White;
             this.btnModositas.Location = new System.Drawing.Point(168, 287);
             this.btnModositas.Name = "btnModositas";
@@ -87,7 +87,7 @@
             this.btnTorles.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnTorles.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnTorles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTorles.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnTorles.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnTorles.ForeColor = System.Drawing.Color.White;
             this.btnTorles.Location = new System.Drawing.Point(168, 327);
             this.btnTorles.Name = "btnTorles";
@@ -102,7 +102,7 @@
             this.btnEdzesek.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnEdzesek.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnEdzesek.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdzesek.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnEdzesek.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnEdzesek.ForeColor = System.Drawing.Color.White;
             this.btnEdzesek.Location = new System.Drawing.Point(411, 247);
             this.btnEdzesek.Name = "btnEdzesek";
@@ -117,7 +117,7 @@
             this.btnElemzes.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnElemzes.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnElemzes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnElemzes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnElemzes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnElemzes.ForeColor = System.Drawing.Color.White;
             this.btnElemzes.Location = new System.Drawing.Point(411, 287);
             this.btnElemzes.Name = "btnElemzes";
@@ -133,7 +133,7 @@
             this.btnGrafikon.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnGrafikon.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnGrafikon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGrafikon.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnGrafikon.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnGrafikon.ForeColor = System.Drawing.Color.White;
             this.btnGrafikon.Location = new System.Drawing.Point(411, 327);
             this.btnGrafikon.Name = "btnGrafikon";
@@ -194,7 +194,7 @@
             this.btnWellness.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnWellness.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnWellness.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnWellness.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnWellness.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnWellness.ForeColor = System.Drawing.Color.White;
             this.btnWellness.Location = new System.Drawing.Point(283, 372);
             this.btnWellness.Name = "btnWellness";

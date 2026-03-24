@@ -189,11 +189,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(270, 9);
+            this.label1.Location = new System.Drawing.Point(233, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(260, 40);
+            this.label1.Size = new System.Drawing.Size(335, 50);
             this.label1.TabIndex = 14;
             this.label1.Text = "Wellness Bejegyzés";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -203,11 +203,11 @@
             this.btnMentes.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMentes.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMentes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMentes.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMentes.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMentes.ForeColor = System.Drawing.Color.White;
-            this.btnMentes.Location = new System.Drawing.Point(309, 415);
+            this.btnMentes.Location = new System.Drawing.Point(300, 403);
             this.btnMentes.Name = "btnMentes";
-            this.btnMentes.Size = new System.Drawing.Size(75, 23);
+            this.btnMentes.Size = new System.Drawing.Size(94, 35);
             this.btnMentes.TabIndex = 15;
             this.btnMentes.Text = "Mentés";
             this.btnMentes.UseVisualStyleBackColor = false;
@@ -218,11 +218,11 @@
             this.btnMegse.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
-            this.btnMegse.Location = new System.Drawing.Point(416, 415);
+            this.btnMegse.Location = new System.Drawing.Point(407, 403);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(75, 23);
+            this.btnMegse.Size = new System.Drawing.Size(94, 35);
             this.btnMegse.TabIndex = 16;
             this.btnMegse.Text = "Mégse";
             this.btnMegse.UseVisualStyleBackColor = false;

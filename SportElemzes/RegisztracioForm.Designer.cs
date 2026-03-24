@@ -41,11 +41,11 @@
             // 
             this.lblfelhasznalonev.AutoSize = true;
             this.lblfelhasznalonev.BackColor = System.Drawing.Color.Transparent;
-            this.lblfelhasznalonev.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblfelhasznalonev.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblfelhasznalonev.ForeColor = System.Drawing.Color.White;
-            this.lblfelhasznalonev.Location = new System.Drawing.Point(342, 87);
+            this.lblfelhasznalonev.Location = new System.Drawing.Point(323, 78);
             this.lblfelhasznalonev.Name = "lblfelhasznalonev";
-            this.lblfelhasznalonev.Size = new System.Drawing.Size(116, 21);
+            this.lblfelhasznalonev.Size = new System.Drawing.Size(154, 30);
             this.lblfelhasznalonev.TabIndex = 0;
             this.lblfelhasznalonev.Text = "Felhasználónév";
             this.lblfelhasznalonev.Click += new System.EventHandler(this.lblfelhasznalonev_Click);
@@ -54,11 +54,11 @@
             // 
             this.lblJelszo.AutoSize = true;
             this.lblJelszo.BackColor = System.Drawing.Color.Transparent;
-            this.lblJelszo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblJelszo.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblJelszo.ForeColor = System.Drawing.Color.White;
-            this.lblJelszo.Location = new System.Drawing.Point(375, 218);
+            this.lblJelszo.Location = new System.Drawing.Point(366, 209);
             this.lblJelszo.Name = "lblJelszo";
-            this.lblJelszo.Size = new System.Drawing.Size(51, 21);
+            this.lblJelszo.Size = new System.Drawing.Size(68, 30);
             this.lblJelszo.TabIndex = 1;
             this.lblJelszo.Text = "Jelszó";
             this.lblJelszo.Click += new System.EventHandler(this.lblJelszo_Click);
@@ -67,11 +67,11 @@
             // 
             this.lblJelszoMegerosites.AutoSize = true;
             this.lblJelszoMegerosites.BackColor = System.Drawing.Color.Transparent;
-            this.lblJelszoMegerosites.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblJelszoMegerosites.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblJelszoMegerosites.ForeColor = System.Drawing.Color.White;
-            this.lblJelszoMegerosites.Location = new System.Drawing.Point(326, 287);
+            this.lblJelszoMegerosites.Location = new System.Drawing.Point(301, 278);
             this.lblJelszoMegerosites.Name = "lblJelszoMegerosites";
-            this.lblJelszoMegerosites.Size = new System.Drawing.Size(148, 21);
+            this.lblJelszoMegerosites.Size = new System.Drawing.Size(198, 30);
             this.lblJelszoMegerosites.TabIndex = 2;
             this.lblJelszoMegerosites.Text = "Jelszó Megerősítése";
             this.lblJelszoMegerosites.Click += new System.EventHandler(this.lblJelszoMegerosites_Click);
@@ -80,11 +80,11 @@
             // 
             this.lblTeljesNev.AutoSize = true;
             this.lblTeljesNev.BackColor = System.Drawing.Color.Transparent;
-            this.lblTeljesNev.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblTeljesNev.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblTeljesNev.ForeColor = System.Drawing.Color.White;
-            this.lblTeljesNev.Location = new System.Drawing.Point(361, 150);
+            this.lblTeljesNev.Location = new System.Drawing.Point(347, 141);
             this.lblTeljesNev.Name = "lblTeljesNev";
-            this.lblTeljesNev.Size = new System.Drawing.Size(79, 21);
+            this.lblTeljesNev.Size = new System.Drawing.Size(106, 30);
             this.lblTeljesNev.TabIndex = 3;
             this.lblTeljesNev.Text = "Teljes Név";
             this.lblTeljesNev.Click += new System.EventHandler(this.lblTeljesNev_Click);
@@ -126,11 +126,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(298, 19);
+            this.label1.Location = new System.Drawing.Point(291, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(205, 47);
+            this.label1.Size = new System.Drawing.Size(219, 50);
             this.label1.TabIndex = 8;
             this.label1.Text = "Regisztráció";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -140,7 +140,7 @@
             this.btnRegisztral.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnRegisztral.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnRegisztral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegisztral.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnRegisztral.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnRegisztral.ForeColor = System.Drawing.Color.White;
             this.btnRegisztral.Location = new System.Drawing.Point(347, 353);
             this.btnRegisztral.Name = "btnRegisztral";
@@ -156,7 +156,7 @@
             this.btnMegse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
             this.btnMegse.Location = new System.Drawing.Point(347, 399);
             this.btnMegse.Name = "btnMegse";

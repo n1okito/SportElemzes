@@ -44,11 +44,11 @@
             // 
             this.lblCim.AutoSize = true;
             this.lblCim.BackColor = System.Drawing.Color.Transparent;
-            this.lblCim.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblCim.Font = new System.Drawing.Font("Segoe UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblCim.ForeColor = System.Drawing.Color.White;
-            this.lblCim.Location = new System.Drawing.Point(357, 212);
+            this.lblCim.Location = new System.Drawing.Point(341, 159);
             this.lblCim.Name = "lblCim";
-            this.lblCim.Size = new System.Drawing.Size(87, 30);
+            this.lblCim.Size = new System.Drawing.Size(120, 40);
             this.lblCim.TabIndex = 0;
             this.lblCim.Text = "Edzések";
             // 
@@ -56,11 +56,11 @@
             // 
             this.lblSportoloFelirat.AutoSize = true;
             this.lblSportoloFelirat.BackColor = System.Drawing.Color.Transparent;
-            this.lblSportoloFelirat.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblSportoloFelirat.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblSportoloFelirat.ForeColor = System.Drawing.Color.White;
-            this.lblSportoloFelirat.Location = new System.Drawing.Point(278, 246);
+            this.lblSportoloFelirat.Location = new System.Drawing.Point(253, 244);
             this.lblSportoloFelirat.Name = "lblSportoloFelirat";
-            this.lblSportoloFelirat.Size = new System.Drawing.Size(55, 13);
+            this.lblSportoloFelirat.Size = new System.Drawing.Size(73, 21);
             this.lblSportoloFelirat.TabIndex = 1;
             this.lblSportoloFelirat.Text = "Sportoló:";
             // 
@@ -68,11 +68,11 @@
             // 
             this.lblSportoloNev.AutoSize = true;
             this.lblSportoloNev.BackColor = System.Drawing.Color.Transparent;
-            this.lblSportoloNev.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblSportoloNev.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblSportoloNev.ForeColor = System.Drawing.Color.White;
-            this.lblSportoloNev.Location = new System.Drawing.Point(333, 246);
+            this.lblSportoloNev.Location = new System.Drawing.Point(332, 244);
             this.lblSportoloNev.Name = "lblSportoloNev";
-            this.lblSportoloNev.Size = new System.Drawing.Size(11, 13);
+            this.lblSportoloNev.Size = new System.Drawing.Size(16, 21);
             this.lblSportoloNev.TabIndex = 2;
             this.lblSportoloNev.Text = "-";
             this.lblSportoloNev.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -85,18 +85,18 @@
             this.dgvEdzesek.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgvEdzesek.Location = new System.Drawing.Point(0, 0);
             this.dgvEdzesek.Name = "dgvEdzesek";
-            this.dgvEdzesek.Size = new System.Drawing.Size(800, 200);
+            this.dgvEdzesek.Size = new System.Drawing.Size(800, 143);
             this.dgvEdzesek.TabIndex = 3;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(286, 277);
+            this.label1.Location = new System.Drawing.Point(266, 272);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 13);
+            this.label1.Size = new System.Drawing.Size(60, 21);
             this.label1.TabIndex = 4;
             this.label1.Text = "Dátum:";
             // 
@@ -104,11 +104,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(255, 303);
+            this.label2.Location = new System.Drawing.Point(228, 300);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
+            this.label2.Size = new System.Drawing.Size(98, 21);
             this.label2.TabIndex = 5;
             this.label2.Text = "Edzés típusa:";
             // 
@@ -116,11 +116,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(299, 331);
+            this.label3.Location = new System.Drawing.Point(286, 328);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 13);
+            this.label3.Size = new System.Drawing.Size(40, 21);
             this.label3.TabIndex = 6;
             this.label3.Text = "RPE:";
             // 
@@ -128,18 +128,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(237, 361);
+            this.label4.Location = new System.Drawing.Point(201, 359);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 13);
+            this.label4.Size = new System.Drawing.Size(125, 21);
             this.label4.TabIndex = 7;
             this.label4.Text = "Időtartam (perc):";
             // 
             // dtpDatum
             // 
             this.dtpDatum.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dtpDatum.Location = new System.Drawing.Point(336, 272);
+            this.dtpDatum.Location = new System.Drawing.Point(335, 272);
             this.dtpDatum.Name = "dtpDatum";
             this.dtpDatum.Size = new System.Drawing.Size(200, 22);
             this.dtpDatum.TabIndex = 8;
@@ -173,13 +173,13 @@
             this.btnHozzaadas.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnHozzaadas.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnHozzaadas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHozzaadas.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnHozzaadas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnHozzaadas.ForeColor = System.Drawing.Color.White;
             this.btnHozzaadas.Location = new System.Drawing.Point(173, 406);
             this.btnHozzaadas.Name = "btnHozzaadas";
             this.btnHozzaadas.Size = new System.Drawing.Size(140, 30);
             this.btnHozzaadas.TabIndex = 12;
-            this.btnHozzaadas.Text = "Új edzés hozzáadása";
+            this.btnHozzaadas.Text = "Új edzés";
             this.btnHozzaadas.UseVisualStyleBackColor = false;
             this.btnHozzaadas.Click += new System.EventHandler(this.btnHozzaadas_Click);
             // 
@@ -188,13 +188,13 @@
             this.btnEdzesTorles.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnEdzesTorles.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnEdzesTorles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEdzesTorles.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnEdzesTorles.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnEdzesTorles.ForeColor = System.Drawing.Color.White;
             this.btnEdzesTorles.Location = new System.Drawing.Point(330, 406);
             this.btnEdzesTorles.Name = "btnEdzesTorles";
             this.btnEdzesTorles.Size = new System.Drawing.Size(140, 30);
             this.btnEdzesTorles.TabIndex = 13;
-            this.btnEdzesTorles.Text = "Kijelölt edzés törlése";
+            this.btnEdzesTorles.Text = "Edzés törlése";
             this.btnEdzesTorles.UseVisualStyleBackColor = false;
             this.btnEdzesTorles.Click += new System.EventHandler(this.btnEdzesTorles_Click);
             // 
@@ -203,7 +203,7 @@
             this.btnBezar.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnBezar.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnBezar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBezar.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnBezar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnBezar.ForeColor = System.Drawing.Color.White;
             this.btnBezar.Location = new System.Drawing.Point(487, 406);
             this.btnBezar.Name = "btnBezar";

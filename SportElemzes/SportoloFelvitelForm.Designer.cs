@@ -41,11 +41,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(309, 138);
+            this.label1.Location = new System.Drawing.Point(301, 137);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 17);
+            this.label1.Size = new System.Drawing.Size(38, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Név";
             // 
@@ -60,11 +60,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(244, 181);
+            this.label2.Location = new System.Drawing.Point(217, 180);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 17);
+            this.label2.Size = new System.Drawing.Size(122, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "Születési Dátum";
             // 
@@ -81,11 +81,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(301, 227);
+            this.label3.Location = new System.Drawing.Point(293, 226);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 17);
+            this.label3.Size = new System.Drawing.Size(46, 21);
             this.label3.TabIndex = 4;
             this.label3.Text = "Poszt";
             // 
@@ -104,13 +104,15 @@
             this.chkAktiv.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.chkAktiv.Checked = true;
             this.chkAktiv.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chkAktiv.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.chkAktiv.ForeColor = System.Drawing.Color.White;
-            this.chkAktiv.Location = new System.Drawing.Point(374, 269);
+            this.chkAktiv.Location = new System.Drawing.Point(369, 275);
             this.chkAktiv.Name = "chkAktiv";
-            this.chkAktiv.Size = new System.Drawing.Size(52, 17);
+            this.chkAktiv.Size = new System.Drawing.Size(62, 24);
             this.chkAktiv.TabIndex = 6;
             this.chkAktiv.Text = "Aktív";
             this.chkAktiv.UseVisualStyleBackColor = false;
+            this.chkAktiv.CheckedChanged += new System.EventHandler(this.chkAktiv_CheckedChanged);
             // 
             // btnMentes
             // 
@@ -118,10 +120,11 @@
             this.btnMentes.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnMentes.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMentes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMentes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMentes.ForeColor = System.Drawing.Color.White;
-            this.btnMentes.Location = new System.Drawing.Point(363, 339);
+            this.btnMentes.Location = new System.Drawing.Point(363, 326);
             this.btnMentes.Name = "btnMentes";
-            this.btnMentes.Size = new System.Drawing.Size(75, 23);
+            this.btnMentes.Size = new System.Drawing.Size(75, 36);
             this.btnMentes.TabIndex = 7;
             this.btnMentes.Text = "Mentés";
             this.btnMentes.UseVisualStyleBackColor = false;
@@ -132,10 +135,11 @@
             this.btnMegse.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMegse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
             this.btnMegse.Location = new System.Drawing.Point(363, 368);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(75, 23);
+            this.btnMegse.Size = new System.Drawing.Size(75, 36);
             this.btnMegse.TabIndex = 8;
             this.btnMegse.Text = "Mégse";
             this.btnMegse.UseVisualStyleBackColor = false;
@@ -147,7 +151,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(211, 21);
+            this.label4.Location = new System.Drawing.Point(211, 41);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(378, 45);
             this.label4.TabIndex = 9;

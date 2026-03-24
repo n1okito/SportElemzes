@@ -23,9 +23,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.cmbSportolo = new System.Windows.Forms.ComboBox();
             this.dtpTol = new System.Windows.Forms.DateTimePicker();
             this.dtpIg = new System.Windows.Forms.DateTimePicker();
@@ -68,11 +68,11 @@
             this.btnFrissit.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnFrissit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnFrissit.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnFrissit.ForeColor = System.Drawing.Color.White;
             this.btnFrissit.Location = new System.Drawing.Point(168, 279);
             this.btnFrissit.Name = "btnFrissit";
-            this.btnFrissit.Size = new System.Drawing.Size(100, 25);
+            this.btnFrissit.Size = new System.Drawing.Size(100, 30);
             this.btnFrissit.TabIndex = 4;
             this.btnFrissit.Text = "Frissítés";
             this.btnFrissit.UseVisualStyleBackColor = false;
@@ -82,17 +82,17 @@
             // 
             this.chtTerheles.BackSecondaryColor = System.Drawing.Color.Black;
             this.chtTerheles.BorderlineColor = System.Drawing.Color.Black;
-            chartArea3.Name = "ChartArea1";
-            this.chtTerheles.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chtTerheles.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chtTerheles.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chtTerheles.Legends.Add(legend1);
             this.chtTerheles.Location = new System.Drawing.Point(356, 12);
             this.chtTerheles.Name = "chtTerheles";
             this.chtTerheles.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Pastel;
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chtTerheles.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chtTerheles.Series.Add(series1);
             this.chtTerheles.Size = new System.Drawing.Size(432, 426);
             this.chtTerheles.TabIndex = 5;
             this.chtTerheles.Text = "Terhelés";
@@ -129,11 +129,11 @@
             this.btnMegse.BackColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatAppearance.BorderColor = System.Drawing.Color.RoyalBlue;
             this.btnMegse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMegse.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.btnMegse.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnMegse.ForeColor = System.Drawing.Color.White;
             this.btnMegse.Location = new System.Drawing.Point(168, 315);
             this.btnMegse.Name = "btnMegse";
-            this.btnMegse.Size = new System.Drawing.Size(100, 25);
+            this.btnMegse.Size = new System.Drawing.Size(100, 33);
             this.btnMegse.TabIndex = 11;
             this.btnMegse.Text = "Mégse";
             this.btnMegse.UseVisualStyleBackColor = false;
@@ -157,11 +157,11 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("IQOS", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(27, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(302, 147);
+            this.label1.Size = new System.Drawing.Size(305, 108);
             this.label1.TabIndex = 19;
             this.label1.Text = "STER";
             // 
