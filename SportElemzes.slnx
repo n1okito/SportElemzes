@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="SportElemzes/SportElemzes.csproj" Id="9d9156f4-73e6-4279-9977-d8f6664e8a31">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
